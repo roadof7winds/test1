@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="js.cookie.js"></script>
+    <script src="js.storage.min.js"></script>
+    <script src="login.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-container">
+          <form  action="" class="signin-form"> 
+              <h1>Авторизация</h1> 
+                <div class="form-group"> 
+                    <label class="form-label" for="username">Имя пользователя</label>
+                    <input class="form-input" id="username" name="username" required="required" type="text" placeholder="Логин" required/>
+                </div>
+                <div class="form-group"> 
+                    <label class="form-label" for="password">Пароль</label>
+                    <input  class="form-input" id="password" name="password" required="required" type="password" placeholder=" Пароль" required/> 
+                </div>
+                
+                <div class="form-group login button-container"> 
+                    <input  type="submit" value="Войти" class="btn login-btn js-login-btn"/> 
+                </div>
+                 <div class="form-group forget"> 
+                    <a href="#">Забыли пароль?</a>
+                </div>
+            </form>
+
+            
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

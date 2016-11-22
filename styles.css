@@ -1,0 +1,117 @@
+body {
+	color: #464646;
+    font-family: Verdana, Geneva, Arial, Helvetica, Sans-serif;
+    font-size: 11px;
+}
+
+h1 {
+	display: block;
+    font-size: 2em;
+    text-align: center;
+}
+
+form h1 {
+	padding: 10px 0;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+}
+.form-container {
+	margin: 200px auto;
+    width: 400px;
+    height: 350px;
+    border: 0px solid #ddd;
+}
+
+.signin-form {
+	width: 300px;
+    height: 200px;
+    margin: 0 auto;
+   
+}
+.form-group {
+	padding: 0 0 15px 0;}
+
+.form-label {
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.form-input{
+    width: 92%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;
+    border: 1px solid #b2b2b2;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-radius: 3px;
+   /*transition: all 0.2s linear;*/
+}
+/*.signin-form input:active,
+.signin-form input::focus{
+    border: 1px solid #1a8416;
+    
+}*/
+
+.btn{
+	width: 50%;
+    font-size: 12px;
+    height: 23px;
+    background: #68a31c url(https://st.drweb.com/static/new-www/web_iq/img/bg_button_grad_green.png) repeat-x 0 0;
+    border: 1px solid #77B759;
+    
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 3px 13px;
+    cursor: pointer;
+    text-decoration: none;
+    /*transition: all 0.2s linear;*/
+
+    margin-top: 4px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-radius: 3px;
+}
+
+
+.login.button-container, .logout.button-container {
+    text-align: center;
+    margin: 5px 0;
+}
+
+
+input.error {
+	border: 1px solid red;
+}
+label.error {
+	font-size: 12px;
+	color: red;
+}
+
+::-webkit-input-placeholder  {
+    color: #bebcbc;
+    font-style: italic;
+}
+
+input:-moz-placeholder{
+    color: #bebcbc;
+    font-style: italic;
+}
+
+input {
+  outline: none;
+}
+.forget {
+	text-align: center;
+    padding-top: 15px;
+}
+
+.forget a {
+	color: #4b9307;
+	text-decoration: underline;
+
+}
